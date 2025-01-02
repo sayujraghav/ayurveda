@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://sayujraghav.github.io/ayurveda",
   "name": "ayurved",
   
   "private": true,
@@ -12,10 +12,10 @@
   
     
   "dev": "vite",
-  
-    
+
+  "predeploy" : "npm run build",
   "build": "vite build",
-  
+  "deploy": "gh-pages -d build",
     
   "lint": "eslint .",
   
